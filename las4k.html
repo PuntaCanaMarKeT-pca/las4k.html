@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las 4K - Deli Kitchen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #fff8f2;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Las 4k kilsy.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #ff7a00;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+        }
+
+        header h2 {
+            font-size: 2rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        header a {
+            margin-top: 30px;
+            padding: 15px 35px;
+            background-color: #ff7a00;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+
+        header a:hover {
+            background-color: #e66d00;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .about h3 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff7a00;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            transition: 0.3s ease;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h4 {
+            margin-bottom: 10px;
+            color: #ff7a00;
+        }
+
+        .cta {
+            background-color: #ff7a00;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .cta h3 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta a {
+            padding: 15px 35px;
+            background-color: white;
+            color: #ff7a00;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Las 4K</h1>
+    <h2>Deli Kitchen</h2>
+    <a href="#menu">Ver Nuestro Menú</a>
+</header>
+
+<section class="about">
+    <h3>Sabores que Enamoran</h3>
+    <p>En Las 4K combinamos tradición, frescura y creatividad para ofrecerte una experiencia gastronómica única. Cada plato está preparado con ingredientes seleccionados y el auténtico sabor caribeño.</p>
+</section>
+
+<section id="menu">
+    <div class="menu">
+        <div class="card">
+            <h4>Picaderas & Brochetas</h4>
+            <p>Deliciosas combinaciones perfectas para compartir y disfrutar.</p>
+        </div>
+        <div class="card">
+            <h4>Postres Artesanales</h4>
+            <p>Dulces tradicionales y modernos que conquistan el paladar.</p>
+        </div>
+        <div class="card">
+            <h4>Bebidas Especiales</h4>
+            <p>Refrescantes opciones preparadas al momento con ingredientes naturales.</p>
+        </div>
+        <div class="card">
+            <h4>Eventos & Catering</h4>
+            <p>Llevamos el sabor de Las 4K a tus celebraciones especiales.</p>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h3>Haz tu Pedido Hoy</h3>
+    <a href="https://wa.me/18093937692" target="_blank">Ordenar por WhatsApp</a>
+</section>
+
+<footer>
+    © 2026 Las 4K - Deli Kitchen | Todos los derechos reservados
+</footer>
+
+</body>
+</html>
